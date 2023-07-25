@@ -1,0 +1,19 @@
+{
+  "name": "com.meta.xr.sdk.audio",
+  "displayName": "Meta XR Audio SDK",
+  "version": "55.0.0-preview",
+  "description": "Meta XR Audio SDK",
+  "samples": [],
+  "unity": "2020.3",
+  "author": {
+    "name": "Meta Platforms, Inc.",
+    "url": "https://developer.oculus.com/"
+  },
+  "documentationUrl": "https://developer.oculus.com/documentation/unity/",
+  "changelogUrl": "https://developer.oculus.com/downloads/package/unity-integration/",
+  "licensesUrl": "https://developer.oculus.com/licenses/oculussdk",
+  "keywords": [
+    "oculus",
+    "meta"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "com.meta.xr.sdk.interaction.ovr",
+  "displayName": "Meta XR Interaction SDK OVR Integration",
+  "version": "55.0.0-preview",
+  "description": "This package allows Interaction SDK to interface with OVRPlugin. Use this package if you are using OVRPlugin or the Utilities package.",
+  "samples": [],
+  "unity": "2020.3",
+  "author": {
+    "name": "Meta Platforms, Inc.",
+    "url": "https://developer.oculus.com/"
+  },
+  "documentationUrl": "https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/",
+  "changelogUrl": "https://developer.oculus.com/downloads/package/unity-integration/",
+  "licensesUrl": "https://developer.oculus.com/licenses/oculussdk",
+  "keywords": [
+    "Oculus",
+    "Interaction",
+    "SDK",
+    "OVR"
+  ],
+  "dependencies": {
+    "com.meta.xr.sdk.interaction": "55.0.0-preview",
+    "com.meta.xr.sdk.utilities": "55.0.0-preview"
+  },
+  "unityRelease": "16f1"
+}

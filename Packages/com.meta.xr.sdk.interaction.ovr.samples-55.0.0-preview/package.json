@@ -1,0 +1,39 @@
+{
+  "name": "com.meta.xr.sdk.interaction.ovr.samples",
+  "displayName": "Meta XR Interaction SDK OVR Samples",
+  "version": "55.0.0-preview",
+  "description": "Contains sample scenes, prefabs, and art assets for Interaction SDK, using OVR variants of the player rig.",
+  "samples": [
+    {
+      "displayName": "Example Scenes",
+      "path": "Samples~/Examples"
+    },
+    {
+      "displayName": "Feature Scenes",
+      "path": "Samples~/Features"
+    },
+    {
+      "displayName": "Tools",
+      "path": "Samples~/Tools"
+    }
+  ],
+  "unity": "2020.3",
+  "author": {
+    "name": "Meta Platforms, Inc.",
+    "url": "https://developer.oculus.com/"
+  },
+  "documentationUrl": "https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/",
+  "changelogUrl": "https://developer.oculus.com/downloads/package/unity-integration/",
+  "licensesUrl": "https://developer.oculus.com/licenses/oculussdk",
+  "keywords": [
+    "Oculus",
+    "Interaction",
+    "SDK",
+    "OVR"
+  ],
+  "dependencies": {
+    "com.meta.xr.sdk.interaction.ovr": "55.0.0-preview",
+    "com.meta.xr.sdk.sharedassets": "55.0.0-preview"
+  },
+  "unityRelease": "16f1"
+}
