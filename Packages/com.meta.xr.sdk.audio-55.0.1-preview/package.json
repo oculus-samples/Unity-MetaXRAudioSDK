@@ -1,7 +1,7 @@
 {
   "name": "com.meta.xr.sdk.audio",
   "displayName": "Meta XR Audio SDK",
-  "version": "55.0.0-preview",
+  "version": "55.0.1-preview",
   "description": "Meta XR Audio SDK",
   "samples": [],
   "unity": "2020.3",

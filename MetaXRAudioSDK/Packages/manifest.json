@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.audio": "file:../../Packages/com.meta.xr.sdk.audio-55.0.0-preview",
+    "com.meta.xr.sdk.audio": "file:../../Packages/com.meta.xr.sdk.audio-55.0.1-preview",
     "com.meta.xr.sdk.interaction": "file:../../Packages/com.meta.xr.sdk.interaction-55.0.0-preview",
     "com.meta.xr.sdk.interaction.ovr": "file:../../Packages/com.meta.xr.sdk.interaction.ovr-55.0.0-preview",
     "com.meta.xr.sdk.interaction.ovr.samples": "file:../../Packages/com.meta.xr.sdk.interaction.ovr.samples-55.0.0-preview",
