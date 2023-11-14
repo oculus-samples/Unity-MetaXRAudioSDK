@@ -8,7 +8,7 @@ Helicopter audio samples are sourced from https://github.com/viktorphoenix/field
 
 An overview for using Meta's Presence Platform Audio SDK in Unity can be found [here](https://developer.oculus.com/documentation/unity/meta-xr-audio-sdk-unity-req-setup/). Each project in this repository contains a **Main** scene that can be used in playmode to run through the various audio feature experiences. It's suggested to use Oculus Link when in the Unity Editor. Instructions for using Oculus Link can be found [here](https://developer.oculus.com/documentation/unity/unity-passthrough-over-link/).
 
-* [**MetaXRAudioSDK**](./MetaXRAudioSDK/) - This Unity project uses the [Unity Package Manager (UPM)](https://docs.unity3d.com/Manual/Packages.html) friendly version of [Meta's Presence Platform SDKs](https://developers.facebook.com/blog/post/2023/04/25/presence-platform-overview/). For convenience, the UPM/[NPM](https://en.wikipedia.org/wiki/Npm_(software)) packages have been added to the [Packages](./Packages/) folder.
+* [**MetaXRAudioSDK**](./MetaXRAudioSDK/) - This Unity project uses the [Unity Package Manager (UPM)](https://docs.unity3d.com/Manual/Packages.html) friendly version of [Meta's Presence Platform SDKs](https://developers.facebook.com/blog/post/2023/04/25/presence-platform-overview/).
 
 # Project Compilation
 

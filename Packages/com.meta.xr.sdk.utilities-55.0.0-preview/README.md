@@ -1,1 +1,0 @@
-Meta XR Utilities package provides the latest features to create immersive experiences for Meta XR devices.
