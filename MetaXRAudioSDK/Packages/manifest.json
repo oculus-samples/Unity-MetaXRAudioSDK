@@ -1,11 +1,9 @@
 {
   "dependencies": {
     "com.meta.xr.sdk.audio": "59.0.0",
+    "com.meta.xr.sdk.core": "59.0.0",
     "com.meta.xr.sdk.interaction": "59.0.0",
     "com.meta.xr.sdk.interaction.ovr": "59.0.0",
-    "com.meta.xr.sdk.interaction.ovr.samples": "59.0.0",
-    "com.meta.xr.sdk.sharedassets": "59.0.0",
-    "com.meta.xr.sdk.core": "59.0.0",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.ads": "4.4.2",
