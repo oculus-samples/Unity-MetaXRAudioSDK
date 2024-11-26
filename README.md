@@ -1,6 +1,6 @@
 # LICENSES
 
-The Unity-MetaXRAudioSDK repository including all packages and SDKs, is released under the Oculus SDK License.  You may obtain a copy of the SDK License at https://developer.oculus.com/licenses/oculussdk/
+The Unity-MetaXRAudioSDK repository including all packages and SDKs, is released under the Oculus SDK License.  You may obtain a copy of the SDK License at https://developers.meta.com/horizon/licenses/oculussdk/
 
 Helicopter audio samples are sourced from https://github.com/viktorphoenix/fieldrecordings-ccby4.  The License for the helicopter audio samples can be found in the third-party folder.
 
