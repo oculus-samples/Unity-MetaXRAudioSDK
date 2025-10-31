@@ -33,7 +33,7 @@ namespace MetaXRAudioSDK
 
         private void Start()
         {
-            var uiAudios = FindObjectsOfType<UIAudio>();
+            var uiAudios = FindObjectsByType<UIAudio>(FindObjectsSortMode.None);
             UnityEngine.Assertions.Assert.AreEqual(uiAudios.Length, 1);
             _uiAudio = uiAudios[0];
         }
@@ -62,7 +62,7 @@ namespace MetaXRAudioSDK
 
         private void LocateControllers()
         {
-            var controllers = FindObjectsOfType<ControllerRef>();
+            var controllers = FindObjectsByType<ControllerRef>(FindObjectsSortMode.None);
             foreach (var controller in controllers)
             {
                 if (controller.Handedness == Handedness.Right)

@@ -1,0 +1,34 @@
+// (c) Meta Platforms, Inc. and affiliates. Confidential and proprietary.
+
+// MODIFIED GRADLE TEMPLATE FILE TO BUILD ANDROID ON SANDCASTLE
+// The main change in here is the repositories from which dependencies are retrieved: a local Sandcastle maven path was added
+// to point to the location in Sandcastle where the gradle dependencies are located
+// THIS MIGHT NEED TO BE UPDATED WHEN UPDATING TO A NEW VERSION OF UNITY
+// The template is located at Editor\Data\PlaybackEngines\AndroidPlayer\Tools\GradleTemplates\baseProjectTemplate.gradle
+
+pluginManagement {
+    repositories {
+        **ARTIFACTORYREPOSITORY**
+        maven { url 'https://maven.thefacebook.com/nexus/content/repositories/jcenter.bintray.com' }
+        maven { url 'https://maven.thefacebook.com/nexus/content/repositories/maven.google.com' }
+        maven { url 'https://maven.thefacebook.com/nexus/content/repositories/central/' }
+        maven { url 'https://maven.thefacebook.com/nexus/content/repositories/gradle-plugins/' }
+    }
+}
+
+include ':launcher', ':unityLibrary'
+**INCLUDES**
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        **ARTIFACTORYREPOSITORY**
+        maven { url 'https://maven.thefacebook.com/nexus/content/repositories/jcenter.bintray.com' }
+        maven { url 'https://maven.thefacebook.com/nexus/content/repositories/maven.google.com' }
+        maven { url 'https://maven.thefacebook.com/nexus/content/repositories/central/' }
+        maven { url 'https://maven.thefacebook.com/nexus/content/repositories/gradle-plugins/' }
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}

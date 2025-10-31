@@ -55,7 +55,7 @@ namespace MetaXRAudioSDK
 
         private void LocateControllers()
         {
-            var controllers = FindObjectsOfType<ControllerRef>();
+            var controllers = FindObjectsByType<ControllerRef>(FindObjectsSortMode.None);
             foreach (var controller in controllers)
             {
                 if (controller.Handedness == Handedness.Right)

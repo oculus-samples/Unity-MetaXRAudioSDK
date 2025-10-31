@@ -28,7 +28,7 @@ namespace MetaXRAudioSDK
 
         private void Awake()
         {
-            var uiAudio = FindObjectOfType<UIAudio>();
+            var uiAudio = FindFirstObjectByType<UIAudio>();
             if (uiAudio == null)
             {
                 Debug.Log($"Instantiating _uiAudioPrefab");

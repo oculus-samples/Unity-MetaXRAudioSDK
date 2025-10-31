@@ -31,7 +31,7 @@ public class CharacterLookAt : MonoBehaviour
     {
         if (!_target)
         {
-            _target = FindObjectOfType<Camera>().transform;
+            _target = FindFirstObjectByType<Camera>().transform;
         }
         _anim = GetComponent<Animator>();
     }

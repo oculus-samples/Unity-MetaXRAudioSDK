@@ -36,6 +36,7 @@ public class HelicopterController : MonoBehaviour
     [SerializeField] float _lookAtSmoothness = .5f;
     [Tooltip("Add transforms here to use them as checkpoints, the goal position and lookat will be driven by their position and forward vectors.")]
     [SerializeField] List<Transform> _checkpoints = new List<Transform>();
+    // The time it takes the helicopter to move from one checkpoint to the next. Lower numbers means faster.
     public float _intervalTime = 3;
     private int _targetCheckPointN = 0;
     private int _nextCheckPointN = 1;
@@ -48,7 +49,7 @@ public class HelicopterController : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _rb.mass = _rigidBodyMass;
-        _rb.drag = _rigidBodyDrag;
+        _rb.linearDamping = _rigidBodyDrag;
         _rb.useGravity = false;
 
         if (_checkpoints.Count > 1)
@@ -115,6 +116,6 @@ public class HelicopterController : MonoBehaviour
             Vector3 lerpedAim = Vector3.Lerp(_checkpoints[_targetCheckPointN].forward, _checkpoints[_nextCheckPointN].forward, _timer / _intervalTime);
         }
         float speed;
-        print(speed = Vector3.Magnitude(_rb.velocity));
+        print(speed = Vector3.Magnitude(_rb.linearVelocity));
     }
 }

@@ -85,7 +85,7 @@ namespace MetaXRAudioSDK
 
         protected virtual void Start()
         {
-            _uiAudio = FindObjectOfType<UIAudio>();
+            _uiAudio = FindFirstObjectByType<UIAudio>();
 
             this.BeginStart(ref _started);
             this.AssertField(PointableCanvas, nameof(PointableCanvas));

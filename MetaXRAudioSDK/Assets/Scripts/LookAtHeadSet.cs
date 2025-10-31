@@ -33,7 +33,7 @@ public class LookAtHeadSet : MonoBehaviour
         _camera = Camera.main;
         if (_camera)
         {
-            _camera = FindObjectOfType<Camera>();
+            _camera = FindFirstObjectByType<Camera>();
             if(_camera && _active){
                 this.transform.LookAt(_camera.transform.position,Vector3.up);
             }
